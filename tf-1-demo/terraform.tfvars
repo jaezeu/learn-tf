@@ -1,2 +1,2 @@
-versioning_status = "Enabled"
-bucket_name = "jaz-bucket"
+table_name = "jaz-ddb-tf"
+billing_mode = "PAY_PER_REQUEST"

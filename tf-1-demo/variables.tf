@@ -1,7 +1,7 @@
-variable "versioning_status" {
+variable "table_name" {
   type = string
 }
 
-variable "bucket_name" {
+variable "billing_mode" {
   type = string
 }
