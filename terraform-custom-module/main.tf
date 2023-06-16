@@ -1,5 +1,6 @@
-module "s3_dynamodb" {
-  source = "./modules"
+module "custom_module" {
+  source = "../modules"
 
-  resource_prefix = "jazeelsandbox"
+  resource_prefix = "dev"
+  create_dynamodb = true
 }
